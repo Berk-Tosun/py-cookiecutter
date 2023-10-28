@@ -1,0 +1,11 @@
+{
+  "full_name": "John doe",
+  "email": "doe_j@web.com",
+  "project_name": "Python Boilerplate",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "Contains all the boilerplate you need to create a Python package.",
+  "version": "v0.1.0",
+  "use_mypy": "y",
+  "has_cli": "n",
+  "path_to_python_exe_for_venv": "python"
+}
